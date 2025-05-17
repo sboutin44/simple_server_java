@@ -4,11 +4,11 @@ import java.net.*;
 public class SimpleServer {
     public static void main(String[] args) {
         int port = 8080;
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
+        System.out.println("hello world1");
+        System.out.println("hello world2");
+        System.out.println("hello world3");
+        System.out.println("hello world4");
+        System.out.println("hello world5");
 
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("HTTP Server running on http://localhost:" + port);

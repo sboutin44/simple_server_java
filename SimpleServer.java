@@ -7,6 +7,7 @@ public class SimpleServer {
         System.out.println("hello world");
         System.out.println("hello world");
         System.out.println("hello world");
+        System.out.println("hello world");
 
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("HTTP Server running on http://localhost:" + port);
